@@ -1,4 +1,7 @@
 simpleArch ISA:
+-----------------
+
+supported instructions:
 
 add  dest, src
 sub  dest, src
@@ -7,6 +10,8 @@ div  dest, src
 
 addi dest, imm
 subi dest, imm
+
+instruction types and encodings:
 
 r-type: 0x0__
 add  0x000
