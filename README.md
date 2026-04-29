@@ -15,3 +15,5 @@ operations supported: *add, sub, mult, div*
 
 Operation will be performed between the dest register and immediate, where **dest := dest *{op}* imm**\
 Ex: ```subi r0, 2``` will result in r0 = r0 - 2
+
+operations supported: *addi, subi*
