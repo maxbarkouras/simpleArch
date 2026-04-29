@@ -11,4 +11,5 @@ Ex: ```add r0, r1``` will result in r0 = r0 + r1
 
 ***i-type***: *instr dest, imm*
 
-Operation will be performed between the dest register and immediate, where **dest := dest *{op}* imm**
+Operation will be performed between the dest register and immediate, where **dest := dest *{op}* imm**\
+Ex: ```subi r0, 2``` will result in r0 = r0 - 2
