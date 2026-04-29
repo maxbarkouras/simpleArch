@@ -1,4 +1,4 @@
-module NPC(
+module npc(
     input  logic       clk,
     input  logic       en,
     input  logic [3:0] d_in,

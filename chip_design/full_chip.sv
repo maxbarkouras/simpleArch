@@ -28,7 +28,7 @@ add4 pc_adder (
     .NPC(npc_in)
 );
 
-NPC npc(
+npc npc(
     .clk(clk),
     .en(en_pc),
     .d_in(npc_in),

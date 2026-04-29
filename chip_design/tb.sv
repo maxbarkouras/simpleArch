@@ -5,9 +5,7 @@ logic       prog_mem_we;
 logic [3:0] prog_mem_addr;
 logic [6:0] prog_mem_din;
 
-chip simpleArch(
-    .*
-);
+chip simpleArch(.*);
 
 always #5 clk = ~clk;
 
@@ -16,7 +14,7 @@ initial begin
     prog_mem_addr = 0;
     prog_mem_din = 0;
 
-    #50;
+    #70;
     $finish;
 end
 
