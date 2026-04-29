@@ -5,4 +5,5 @@ currently a single cycle design driven by 7-bit encoded instructions and allowin
 ***r-type***:
 
 *instr dest, src*
+
 where the operation will be performed between the two registers, and result will be stored in dest
