@@ -5,7 +5,7 @@ logic       prog_mem_we;
 logic [3:0] prog_mem_addr;
 logic [6:0] prog_mem_din;
 
-chip simpleArch(.*);
+cpu simpleArch(.*);
 
 always #5 clk = ~clk;
 
