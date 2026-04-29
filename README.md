@@ -6,7 +6,8 @@ currently a single cycle design driven by 7-bit encoded instructions and allowin
 
 ***r-type***: *instr dest, src*
 
-Operation will be performed between the two registers, where **dest := dest *{op}* src**
+Operation will be performed between the two registers, where **dest := dest *{op}* src**\
+asd
 
 ***i-type***: *instr dest, imm*
 
