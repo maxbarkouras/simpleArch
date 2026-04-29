@@ -7,7 +7,7 @@ currently a single cycle design driven by 7-bit encoded instructions and allowin
 ***r-type***: *instr dest, src*
 
 Operation will be performed between the two registers, where **dest := dest *{op}* src**\
-asd
+Ex: *add r0, r1*, where r0 = r0 + r1
 
 ***i-type***: *instr dest, imm*
 
